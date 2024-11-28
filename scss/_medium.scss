@@ -1,0 +1,27 @@
+/* NAVIGATION STUFF GOES HERE  */
+nav {
+    ul{
+        a {
+            img {display: none;}
+            span {display:block;}
+    }
+}
+}
+
+
+.allcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gutter;
+    div {
+        flex-basis: calc(50% - ($gutter/2));
+
+    }
+}
+
+
+footer div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    }
